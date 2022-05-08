@@ -1,50 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <script defer src="js/app.js"></script>
     <title>Formulario - incio</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <h1>Formulario de la Caja</h1>
     <form action="" id="my-form">
-        <fieldset>
-           <legend>Configuracion</legend>
-           <div class="campo">
-            <label for="colorFondo">Color de fondo</label>
-            <input id="colorFondo" type="text" placeholder="escribe un color">
+      <div class="inputs-form">
+        <legend>Configuracion</legend>
+        <div class="campo">
+          <label for="colorFondo">Color de fondo</label>
+          <input id="colorFondo" type="text" placeholder="escribe un color" />
         </div>
 
         <div class="campo">
-            <label for="font">tamaño de fuente</label>
-            <input id="font" type="text" placeholder="valor de la fuente">
+          <label for="font">tamaño de fuente</label>
+          <input id="font" type="text" placeholder="valor de la fuente" />
         </div>
 
         <div class="campo">
-            <label for="height">Altura</label>
-            <input id="height" type="text" placeholder="valor de la altura" required>
+          <label for="height">Altura</label>
+          <input
+            id="height"
+            type="text"
+            placeholder="valor de la altura"
+            required
+          />
         </div>
 
         <div class="campo">
-            <label for="width">Ancho</label>
-            <input id="width" type="text" placeholder="valor del ancho" required>
+          <label for="width">Ancho</label>
+          <input
+            id="width"
+            type="text"
+            placeholder="valor del ancho"
+            required
+          />
         </div>
 
         <div class="campo">
-            <label for="mensaje">Mensaje</label>
-            <textarea name="" id="mensaje" cols="30" rows="10" required></textarea>
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            name=""
+            id="mensaje"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
         </div>
-       </fieldset>
+      </div>
 
-       <input type="submit" value="Agregar Cambios">
+      <input type="submit" value="Agregar Cambios" />
     </form>
 
-    <div id="caja">
-      Escribe un mensaje
-    </div>
-</body>
+    <div id="caja">Escribe un mensaje</div>
+  </body>
 </html>
